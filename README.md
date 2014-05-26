@@ -11,34 +11,34 @@ Technical
 Examples
 --------
 
-![bird](https://github.com/lybrown/chunkyflicker/raw/master/bird.png) ![bird.emu](https://github.com/lybrown/chunkyflicker/raw/master/bird.emu.png)
+![bird](https://github.com/lybrown/chunkyflicker/raw/master/examples/bird.png) ![bird.emu](https://github.com/lybrown/chunkyflicker/raw/master/examples/bird.emu.png)
 
-[bird.png.xex](https://github.com/lybrown/chunkyflicker/raw/master/bird.png.xex)
+[bird.png.xex](https://github.com/lybrown/chunkyflicker/raw/master/examples/bird.png.xex)
 
-![boss1](https://github.com/lybrown/chunkyflicker/raw/master/boss1.png) ![boss1.emu](https://github.com/lybrown/chunkyflicker/raw/master/boss1.emu.png)
+![boss1](https://github.com/lybrown/chunkyflicker/raw/master/examples/boss1.png) ![boss1.emu](https://github.com/lybrown/chunkyflicker/raw/master/examples/boss1.emu.png)
 
-[boss1.png.xex](https://github.com/lybrown/chunkyflicker/raw/master/boss1.png.xex)
+[boss1.png.xex](https://github.com/lybrown/chunkyflicker/raw/master/examples/boss1.png.xex)
 
-![metroid](https://github.com/lybrown/chunkyflicker/raw/master/metroid.png) ![metroid.emu](https://github.com/lybrown/chunkyflicker/raw/master/metroid.emu.png)
+![metroid](https://github.com/lybrown/chunkyflicker/raw/master/examples/metroid.png) ![metroid.emu](https://github.com/lybrown/chunkyflicker/raw/master/examples/metroid.emu.png)
 
-[metroid.png.xex](https://github.com/lybrown/chunkyflicker/raw/master/metroid.png.xex)
+[metroid.png.xex](https://github.com/lybrown/chunkyflicker/raw/master/examples/metroid.png.xex)
 
-![metroid2](https://github.com/lybrown/chunkyflicker/raw/master/metroid2.png) ![metroid2.emu](https://github.com/lybrown/chunkyflicker/raw/master/metroid2.emu.png)
+![metroid2](https://github.com/lybrown/chunkyflicker/raw/master/examples/metroid2.png) ![metroid2.emu](https://github.com/lybrown/chunkyflicker/raw/master/examples/metroid2.emu.png)
 
-[metroid.png.xex](https://github.com/lybrown/chunkyflicker/raw/master/metroid2.png.xex)
+[metroid.png.xex](https://github.com/lybrown/chunkyflicker/raw/master/examples/metroid2.png.xex)
 
-![samus](https://github.com/lybrown/chunkyflicker/raw/master/samus.png) ![samus.emu](https://github.com/lybrown/chunkyflicker/raw/master/samus.emu.png)
+![samus](https://github.com/lybrown/chunkyflicker/raw/master/examples/samus.png) ![samus.emu](https://github.com/lybrown/chunkyflicker/raw/master/examples/samus.emu.png)
 
-[samus.png.xex](https://github.com/lybrown/chunkyflicker/raw/master/samus.png.xex)
+[samus.png.xex](https://github.com/lybrown/chunkyflicker/raw/master/examples/samus.png.xex)
 
-![samus2](https://github.com/lybrown/chunkyflicker/raw/master/samus2.png) ![samus2.emu](https://github.com/lybrown/chunkyflicker/raw/master/samus2.emu.png)
+![samus2](https://github.com/lybrown/chunkyflicker/raw/master/examples/samus2.png) ![samus2.emu](https://github.com/lybrown/chunkyflicker/raw/master/examples/samus2.emu.png)
 
-[samus.png.xex](https://github.com/lybrown/chunkyflicker/raw/master/samus2.png.xex)
+[samus.png.xex](https://github.com/lybrown/chunkyflicker/raw/master/examples/samus2.png.xex)
 
-![crayons](https://github.com/lybrown/chunkyflicker/raw/master/crayons.jpg) ![crayons.emu](https://github.com/lybrown/chunkyflicker/raw/master/crayons.emu.png)
+![crayons](https://github.com/lybrown/chunkyflicker/raw/master/examples/crayons.jpg) ![crayons.emu](https://github.com/lybrown/chunkyflicker/raw/master/examples/crayons.emu.png)
 
-[crayons.png.xex](https://github.com/lybrown/chunkyflicker/raw/master/crayons.png.xex)
+[crayons.png.xex](https://github.com/lybrown/chunkyflicker/raw/master/examples/crayons.png.xex)
 
-![crayons2](https://github.com/lybrown/chunkyflicker/raw/master/crayons2.png) ![crayons2.emu](https://github.com/lybrown/chunkyflicker/raw/master/crayons2.emu.png)
+![crayons2](https://github.com/lybrown/chunkyflicker/raw/master/examples/crayons2.png) ![crayons2.emu](https://github.com/lybrown/chunkyflicker/raw/master/examples/crayons2.emu.png)
 
-[crayons.png.xex](https://github.com/lybrown/chunkyflicker/raw/master/crayons2.png.xex)
+[crayons.png.xex](https://github.com/lybrown/chunkyflicker/raw/master/examples/crayons2.png.xex)
