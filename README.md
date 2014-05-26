@@ -1,6 +1,8 @@
 Flicker Mode
 ============
 
+This mode only really looks good with frame blending enabled.
+
 Technical
 ---------
 
