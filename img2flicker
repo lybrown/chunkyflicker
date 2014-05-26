@@ -1,0 +1,107 @@
+#!/usr/bin/perl
+use strict;
+use warnings;
+use Image::Magick;
+use Data::Dumper;
+$Data::Dumper::Indent = 1;
+
+sub readimage {
+    my ($file) = @_;
+    my $image = Image::Magick->new;
+    my $status = $image->Read($file);
+    warn "WARNING: $status" if $status;
+    $image->Set(alpha => "Off");
+    return $image;
+}
+
+sub palette {
+    my ($image) = @_;
+    my $w = $image->Get("width");
+    my $h = $image->Get("height");
+    my @p = $image->GetPixels(x => 0, y => 0, width => $w, height => $h);
+    $_ >>= 8 for @p;
+    my %p;
+    my $i = 0;
+    $p{join ",", splice @p, 0, 3} = $i++ while @p;
+    return \%p;
+}
+
+sub atari800pal {
+    my ($file) = @_;
+    open my $fh, $file or die "ERROR: Cannot open $file: $!\n";
+    my $data = join "", <$fh>;
+    my @p = map ord, ($data =~ /(.)/g);
+    my %p;
+    my $i = 0;
+    $p{join ",", splice @p, 0, 3} = $i++ while @p;
+    return \%p;
+}
+
+sub byte2 {
+    my ($bmp, $o) = @_;
+    defined $bmp->[$o] ? ($bmp->[$o]<<4)+$bmp->[$o+1] : 0;
+}
+
+sub main {
+    my $image = readimage($ARGV[0]);
+    my $pal = readimage($ARGV[1]);
+    my $pal2color = palette($pal);
+    #my $pal2color = atari800pal($ARGV[1]);
+    my $width = $image->Get("width");
+    my $height = $image->Get("height");
+    my $aspect = $width / $height;
+    my $swidth = 80;
+    my $sheight = 50;
+    my $twidth = $swidth;
+    my $theight = $twidth;
+    my $taspect = $twidth / $theight;
+    if ($taspect > $aspect) {
+        $twidth *= $aspect/$taspect;
+        $twidth = int($twidth);
+    } else {
+        $theight *= $taspect/$aspect;
+        $theight = int($theight);
+    }
+    my $tpad = $sheight-$theight;
+    my $lpad = $swidth-$twidth;
+    warn "INFO: twidth: $twidth theight: $theight\n";
+    $image->Resize(width => $twidth, height => $theight, filter => "Sinc");
+    $image->Remap(
+        image => $pal,
+        dither => $ENV{DITHER} ? "true" : "false",
+        #dither => "true",
+        #"dither-method" => "Riemersma",
+        #"dither-method" => "Floyd-Steinberg",
+        );
+    my @pixels = $image->GetPixels(width => $twidth, height => $theight);
+    $_ >>= 8 for @pixels;
+    my @colors;
+    push @colors, $pal2color->{join ",", splice @pixels, 0, 3} while @pixels;
+    warn "INFO: pixels: ", scalar @colors, "\n";
+    my @hues = map { $_ >> 4 } @colors;
+    my @lums = map { $_ & 0xF } @colors;
+    my @bmp = (0)x($swidth*$sheight);
+    my $o = 0;
+    #my $p = $tpad*($swidth>>1)+($lpad>>1);
+    my $p = 0;
+    for my $y (0 .. $sheight-1) {
+        $bmp[$p+$_] = byte2(\@hues, $o+$_*2) for 0 .. (($twidth>>1)-1);
+        $p += $swidth>>1;
+        $o += $twidth;
+    }
+    $o = 0;
+    for my $y (0 .. $sheight-1) {
+        $bmp[$p+$_] = byte2(\@lums, $o+$_*2) for 0 .. (($twidth>>1)-1);
+        $p += $swidth>>1;
+        $o += $twidth;
+    }
+    splice @bmp, $swidth*$sheight;
+    while (@bmp) {
+        if (@bmp == 2000) {
+            print "  ; half\n";
+        }
+        print "  dta ", (join ",", splice @bmp, 0, $swidth>>2), "\n";
+    }
+}
+
+main();
