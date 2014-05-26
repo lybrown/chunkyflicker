@@ -11,26 +11,26 @@ Technical
 Examples
 --------
 
-![bird](https://github.com/lybrown/chunkyflicker/raw/master/bird).png ![bird.emu](https://github.com/lybrown/chunkyflicker/raw/master/bird.emu).png
-[bird.png.xex](![bird](https://github.com/lybrown/chunkyflicker/raw/master/bird).png.xex)
+![bird](https://github.com/lybrown/chunkyflicker/raw/master/bird.png) ![bird.emu](https://github.com/lybrown/chunkyflicker/raw/master/bird.emu.png)
+[bird.png.xex](![bird](https://github.com/lybrown/chunkyflicker/raw/master/bird.png).xex)
 
-![boss1](https://github.com/lybrown/chunkyflicker/raw/master/boss1).png ![boss1.emu](https://github.com/lybrown/chunkyflicker/raw/master/boss1.emu).png
-[boss1.png.xex](![boss1](https://github.com/lybrown/chunkyflicker/raw/master/boss1).png.xex)
+![boss1](https://github.com/lybrown/chunkyflicker/raw/master/boss1.png) ![boss1.emu](https://github.com/lybrown/chunkyflicker/raw/master/boss1.emu.png)
+[boss1.png.xex](![boss1](https://github.com/lybrown/chunkyflicker/raw/master/boss1.png).xex)
 
-![metroid](https://github.com/lybrown/chunkyflicker/raw/master/metroid).png ![metroid.emu](https://github.com/lybrown/chunkyflicker/raw/master/metroid.emu).png
-[metroid.png.xex](![metroid](https://github.com/lybrown/chunkyflicker/raw/master/metroid).png.xex)
+![metroid](https://github.com/lybrown/chunkyflicker/raw/master/metroid.png) ![metroid.emu](https://github.com/lybrown/chunkyflicker/raw/master/metroid.emu.png)
+[metroid.png.xex](![metroid](https://github.com/lybrown/chunkyflicker/raw/master/metroid.png).xex)
 
-![metroid2](https://github.com/lybrown/chunkyflicker/raw/master/metroid2).png ![metroid2.emu](https://github.com/lybrown/chunkyflicker/raw/master/metroid2.emu).png
-[metroid.png.xex](![metroid2](https://github.com/lybrown/chunkyflicker/raw/master/metroid2).png.xex)
+![metroid2](https://github.com/lybrown/chunkyflicker/raw/master/metroid2.png) ![metroid2.emu](https://github.com/lybrown/chunkyflicker/raw/master/metroid2.emu.png)
+[metroid.png.xex](![metroid2](https://github.com/lybrown/chunkyflicker/raw/master/metroid2.png).xex)
 
-![samus](https://github.com/lybrown/chunkyflicker/raw/master/samus).png ![samus.emu](https://github.com/lybrown/chunkyflicker/raw/master/samus.emu).png
-[samus.png.xex](![samus](https://github.com/lybrown/chunkyflicker/raw/master/samus).png.xex)
+![samus](https://github.com/lybrown/chunkyflicker/raw/master/samus.png) ![samus.emu](https://github.com/lybrown/chunkyflicker/raw/master/samus.emu.png)
+[samus.png.xex](![samus](https://github.com/lybrown/chunkyflicker/raw/master/samus.png).xex)
 
-![samus2](https://github.com/lybrown/chunkyflicker/raw/master/samus2).png ![samus2.emu](https://github.com/lybrown/chunkyflicker/raw/master/samus2.emu).png
-[samus.png.xex](![samus2](https://github.com/lybrown/chunkyflicker/raw/master/samus2).png.xex)
+![samus2](https://github.com/lybrown/chunkyflicker/raw/master/samus2.png) ![samus2.emu](https://github.com/lybrown/chunkyflicker/raw/master/samus2.emu.png)
+[samus.png.xex](![samus2](https://github.com/lybrown/chunkyflicker/raw/master/samus2.png).xex)
 
-![crayons](https://github.com/lybrown/chunkyflicker/raw/master/crayons).png ![crayons.emu](https://github.com/lybrown/chunkyflicker/raw/master/crayons.emu).png
-[crayons.png.xex](![crayons](https://github.com/lybrown/chunkyflicker/raw/master/crayons).png.xex)
+![crayons](https://github.com/lybrown/chunkyflicker/raw/master/crayons.png) ![crayons.emu](https://github.com/lybrown/chunkyflicker/raw/master/crayons.emu.png)
+[crayons.png.xex](![crayons](https://github.com/lybrown/chunkyflicker/raw/master/crayons.png).xex)
 
-![crayons2](https://github.com/lybrown/chunkyflicker/raw/master/crayons2).png ![crayons2.emu](https://github.com/lybrown/chunkyflicker/raw/master/crayons2.emu).png
-[crayons.png.xex](![crayons2](https://github.com/lybrown/chunkyflicker/raw/master/crayons2).png.xex)
+![crayons2](https://github.com/lybrown/chunkyflicker/raw/master/crayons2.png) ![crayons2.emu](https://github.com/lybrown/chunkyflicker/raw/master/crayons2.emu.png)
+[crayons.png.xex](![crayons2](https://github.com/lybrown/chunkyflicker/raw/master/crayons2.png).xex)
