@@ -1,8 +1,8 @@
 flicker.run:
 flicker.obx: image.asm
 
-#palette := flickerpal.png 
-palette := pal.png
+palette := flickerpal4.png 
+#palette := pal.png
 
 %.jpg.xex: %.jpg $(palette) img2flicker flicker.asm.pp
 	./img2flicker $< $(palette) > image.asm
