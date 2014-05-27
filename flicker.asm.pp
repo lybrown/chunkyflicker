@@ -7,7 +7,7 @@ bak org *+1
     org $2000
     sei
     mva #0 NMIEN
-    sta bak
+    mva #2 bak
     sta DMACTL
     lda PORTB
     and #$FE
