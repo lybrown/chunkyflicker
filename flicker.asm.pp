@@ -97,3 +97,5 @@ scr1 equ *+2000
     icl 'image.asm'
 
     eif
+
+    run $2000
